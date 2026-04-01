@@ -10,6 +10,7 @@
                 "${file}",
                 "listS.c",
                 "smTranspose.c",
+                "addPoly.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
