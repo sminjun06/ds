@@ -9,6 +9,7 @@
                 "-g",
                 "${file}",
                 "listS.c",
+                "smTranspose.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
