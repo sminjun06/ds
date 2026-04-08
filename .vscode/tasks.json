@@ -11,7 +11,7 @@
                 "listS.c",
                 "smTranspose.c",
                 "addPoly.c",
-                "LinkedList.c",
+                "CircularLinkedList.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
