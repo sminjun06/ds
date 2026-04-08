@@ -11,7 +11,7 @@
                 "listS.c",
                 "smTranspose.c",
                 "addPoly.c",
-                "InsertLinkedList.c",
+                "LinkedList.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
