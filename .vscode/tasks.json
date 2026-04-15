@@ -8,10 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "listS.c",
-                "smTranspose.c",
-                "addPoly.c",
-                "CircularLinkedList.c",
+                "LinkedPoly.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
