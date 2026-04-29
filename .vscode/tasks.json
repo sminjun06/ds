@@ -8,8 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "stackL.c",
-                "evalPostfix.c",
+                "queueS.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
