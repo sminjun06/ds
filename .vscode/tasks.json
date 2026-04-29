@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "queueS.c",
+                "cQueueS.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
