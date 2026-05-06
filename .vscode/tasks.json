@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "LinkedQueue.c",
+                "traversalBT.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
