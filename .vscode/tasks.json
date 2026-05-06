@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "cQueueS.c",
+                "LinkedQueue.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
