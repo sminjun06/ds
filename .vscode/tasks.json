@@ -8,8 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "bst.c",
-                "node.c",
+                "heap.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
