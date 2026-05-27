@@ -8,9 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "DFS.c",
+                "BFS.c",
                 "adjList.c",
-                "stackL.c",
+                "LinkedQueue.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

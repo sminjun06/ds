@@ -12,7 +12,7 @@ LQueueType* createLinkedQueue(void) {
 
 int isLQEmpty(LQueueType* LQ) {
     if (LQ->front == NULL) {
-        printf(" Linked Queue is empty! ");
+        //printf(" Linked Queue is empty! ");
         return 1;
     }
     else return 0;
@@ -59,7 +59,7 @@ void printLQ(LQueueType* LQ) {
     QNode* temp = LQ->front;
     printf(" Linked Queue : [");
     while (temp) {
-        printf("%3c", temp->data);
+        printf("%3d", temp->data);
         temp = temp->link;
     }
     printf(" ] ");
