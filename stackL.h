@@ -8,8 +8,8 @@ typedef struct stackNode {
 
 extern stackNode* top;
 
-int isStackEmpty();
+int isStackEmpty(void);
 void push(element item);
-element pop();
-element peek();
-void printStack();
+element pop(void);
+element peek(void);
+void printStack(void);

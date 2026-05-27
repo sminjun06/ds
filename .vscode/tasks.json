@@ -8,7 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "DFS.c",
                 "adjList.c",
+                "stackL.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
